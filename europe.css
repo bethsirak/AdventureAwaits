@@ -204,7 +204,7 @@
     box-sizing: border-box;
     position: relative;
     width: 80%; 
-  
+
 }
 
 .main__content h1 {
@@ -352,15 +352,13 @@
  }
  /* Services Section */
 
- .services {
+ /* .services {
     background: #131313;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     height: 80vh;
-    
-    
   }
   
   .services h1 {
@@ -371,7 +369,7 @@
     color: #f2f2f2;
       
   }
-  /* .services h3 {
+  .services h3 {
     color: #f2f2f2;
     font-size: 2rem;
     font-weight: 700;
@@ -382,13 +380,14 @@
     font-size: 2rem;
     font-weight: 700;
       
-  } */
+  }
   
   .services__container {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
     height: 100%;
+    
   }
 
   .services__card {
@@ -396,7 +395,7 @@
     height: 525px;
     width: 400px;
     border-radius: 4px;
-    background-image: url(images/Greece1.JPG);
+    background-image: url(images/budapest.jpeg);
     background-size: cover;
     position: relative;
     color: #fff;
@@ -412,7 +411,7 @@
     height: 525px;
     width: 400px;
     border-radius: 4px;
-    background-image: url(images/Ethiopia.jpg);
+    background-image: url(images/Greece1.JPG);
     background-size: cover;
     position: relative;
     color: #fff;
@@ -429,6 +428,7 @@
   }
   
   
+  
   .services__card h2 {
     position: absolute;
     top: 350px;
@@ -440,16 +440,9 @@
     top: 400px;
     left: 30px;
   }
-
-  .services__btn a {
-    position: relative;
-    z-index: 2;
-    color: white;
-    text-decoration: none;
-}
   
   .services__card button {
-    color: #fff; 
+    color: #fff;
     padding: 10px 20px;
     border: none;
     outline: none;
@@ -480,14 +473,14 @@
       font-size: 2rem;
       margin-top: 12rem;
     }
-    /* .services h3 {
+    .services h3 {
       font-size: 2rem;
       margin-top: 12rem;
     }
     .services h4 {
       font-size: 2rem;
       margin-top: 12rem;
-    } */
+    }
   }
   
   @media screen and (max-width: 480px) {
@@ -498,23 +491,409 @@
     .services h1 {
       font-size: 1.2rem;
     }
-/*   
+  
     .services h3 {
       font-size: 1.2rem;
     }
     .services h4 {
       font-size: 1.2rem;
-    } */
+    }
     .services__card {
       width: 300px;
     }
+  } */
+
+
+/* services budapest*/
+.services {
+  background: #131313;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 70vh;
+  
+  
+}
+
+.services h1 {
+  margin-top: 3rem;
+  padding: 2rem;
+  font-size: 2rem;
+  font-weight: 700;
+  color: #f2f2f2;
+    
+}
+.services__container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  height: 100%;
+  
+}
+
+.services__card {
+  margin: 1rem;
+  height: 525px;
+  width: 400px;
+  border-radius: 4px;
+  background-image: url(images/1.jpeg);
+  background-size: cover;
+  position: relative;
+  color: #fff;
+}
+
+
+.services__card:before {
+  opacity: 0.2;
+}
+
+.services__card:nth-child(2) {
+  margin: 1rem;
+  height: 525px;
+  width: 400px;
+  border-radius: 4px;
+  background-image: url(images/2.jpeg);
+  background-size: cover;
+  position: relative;
+  color: #fff;
+}
+.services__card:nth-child(3) {
+  margin: 1rem;
+  height: 525px;
+  width: 400px;
+  border-radius: 4px;
+  background-image: url(images/3.jpeg);
+  background-size: cover;
+  position: relative;
+  color: #fff;
+}
+
+
+.services__card h2 {
+  text-align: center;
+  position: absolute;
+  top: 400px;
+  left: 30px;
+  
+}
+
+.services__card p {
+  position: absolute;
+  top: 450px;
+  left: 30px;
+}
+
+.services__card button {
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  outline: none;
+  border-radius: 4px;
+  background: #f77062;
+  position: absolute;
+  top: 440px;
+  left: 30px;
+  font-size: 1rem;
+}
+
+.services__card button:hover {
+  cursor: pointer;
+}
+
+.services__card:hover {
+  transform: scale(1.075);
+  transition: 0.2s ease-in;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 960px) {
+  .services {
+    height: 1600px;
   }
 
+  .services h1 {
+    font-size: 2rem;
+    margin-top: 12rem;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .services {
+    height: 1400px;
+  }
+
+  .services h1 {
+    font-size: 1.2rem;
+  }
+  .services__card {
+    width: 300px;
+  }
+}
+
+
+/* services greece */
+
+.servicesgreece {
+  background: #131313;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+  
+  
+}
+
+.servicesgreece h1 {
+  margin-top: 3rem;
+  padding: 2rem;
+  font-size: 2rem;
+  font-weight: 700;
+  color: #f2f2f2;
+    
+}
+.servicesgreece__container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  height: 100%;
+
+
+  
+}
+
+.servicesgreece__card {
+  margin: 1rem;
+  height: 525px;
+  width: 400px;
+  border-radius: 4px;
+  background-image: url(images/Greece1.JPG);
+  background-size: cover;
+  position: relative;
+  color: #fff;
+}
+
+
+.servicesgreece__card:before {
+  opacity: 0.2;
+}
+
+.servicesgreece__card:nth-child(2) {
+  margin: 1rem;
+  height: 525px;
+  width: 400px;
+  border-radius: 4px;
+  background-image: url(images/kef.jpeg);
+  background-size: cover;
+  position: relative;
+  color: #fff;
+}
+.servicesgreece__card:nth-child(3) {
+  margin: 1rem;
+  height: 525px;
+  width: 400px;
+  border-radius: 4px;
+  background-image: url(images/G2.jpeg);
+  background-size: cover;
+  position: relative;
+  color: #fff;
+}
+
+
+.servicesgreece__card h2 {
+  position: absolute;
+  top: 400px;
+  left: 30px;
+}
+
+.servicesgreece__card p {
+  position: absolute;
+  top: 450px;
+  left: 30px;
+}
+
+.servicesgreece__card button {
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  outline: none;
+  border-radius: 4px;
+  background: #f77062;
+  position: absolute;
+  top: 440px;
+  left: 30px;
+  font-size: 1rem;
+}
+
+.servicesgreece__card button:hover {
+  cursor: pointer;
+}
+
+.servicesgreece__card:hover {
+  transform: scale(1.075);
+  transition: 0.2s ease-in;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 960px) {
+  .servicesgreece {
+    height: 1600px;
+  }
+
+  .servicesgreece h1 {
+    font-size: 2rem;
+    margin-top: 12rem;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .servicesgreece {
+    height: 1400px;
+  }
+
+  .servicesgreece h1 {
+    font-size: 1.2rem;
+  }
+  .servicesgreece__card {
+    width: 300px;
+  }
+}
+
+
+/* services greece1 */
+
+.servicesgreece1 {
+  background: #131313;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 60vh;
+  
+  
+}
+
+.servicesgreece1 h1 {
+  margin-top: 3rem;
+  padding: 2rem;
+  font-size: 2rem;
+  font-weight: 700;
+  color: #f2f2f2;
+    
+}
+.servicesgreece1__container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  height: 100%;
+
+
+  
+}
+
+.servicesgreece1__card {
+  margin: 1rem;
+  height: 525px;
+  width: 400px;
+  border-radius: 4px;
+  background-image: url(images/Kefalonia.jpeg);
+  background-size: cover;
+  position: relative;
+  color: #fff;
+}
+
+
+.servicesgreece1__card:before {
+  opacity: 0.2;
+}
+
+.servicesgreece1__card:nth-child(2) {
+  margin: 1rem;
+  height: 525px;
+  width: 400px;
+  border-radius: 4px;
+  background-image: url(images/Kefalonia1.jpeg);
+  background-size: cover;
+  position: relative;
+  color: #fff;
+}
+.servicesgreece1__card:nth-child(3) {
+  margin: 1rem;
+  height: 525px;
+  width: 400px;
+  border-radius: 4px;
+  background-image: url(images/Kefalonia2.JPG);
+  background-size: cover;
+  position: relative;
+  color: #fff;
+}
+
+
+.servicesgreece1__card h2 {
+  position: absolute;
+  top: 400px;
+  left: 30px;
+}
+
+.servicesgreece1__card p {
+  position: absolute;
+  top: 450px;
+  left: 30px;
+}
+
+.servicesgreece1__card button {
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  outline: none;
+  border-radius: 4px;
+  background: #f77062;
+  position: absolute;
+  top: 440px;
+  left: 30px;
+  font-size: 1rem;
+}
+
+.servicesgreece1__card button:hover {
+  cursor: pointer;
+}
+
+.servicesgreece1__card:hover {
+  transform: scale(1.075);
+  transition: 0.2s ease-in;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 960px) {
+  .servicesgreece1 {
+    height: 1600px;
+  }
+
+  .servicesgreece1 h1 {
+    font-size: 2rem;
+    margin-top: 12rem;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .servicesgreece1 {
+    height: 1400px;
+  }
+
+  .servicesgreece1 h1 {
+    font-size: 1.2rem;
+  }
+  .servicesgreece1__card {
+    width: 300px;
+  }
+}
 
 /* Footer CSS */
+
 .footer__container {
     background-color: #141414;
-    padding: 15rem 0;
+    padding: 2rem 0;
     display: flex;
     flex-direction: column;
     justify-content: center;
